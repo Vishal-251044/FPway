@@ -1,0 +1,149 @@
+.freelancer-profile-box {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 600px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative; 
+  }
+  
+  .profile-title {
+    font-size: 1.8rem;
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .profile-info p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+  }
+  
+  .profile-info strong {
+    color: #444;
+  }
+  
+  .education-text {
+    text-transform: uppercase; 
+    font-weight: bold;
+  }
+  
+  .btn-download {
+    display: inline-block;
+    padding: 8px 12px;
+    background-color: #3498db;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-download:hover {
+    background-color: #2980b9;
+  }
+
+  .applied-projects-section {
+    margin-top: 20px;
+  }
+  
+  .applied-projects-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .project-item {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .project-item p {
+    margin: 5px 0;
+  }
+
+  .resume-section {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .resume-actions {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 20px;
+  }
+  
+  .edit-icon {
+    cursor: pointer;
+    color: #1890ff;
+    font-size: 18px;
+    transition: color 0.3s;
+  }
+  
+  .edit-icon:hover {
+    color: #40a9ff;
+  }  
+
+  @media (max-width: 768px) {
+    .freelancer-profile-box {
+      padding: 15px;
+      width: 90%;
+    }
+  
+    .profile-title {
+      font-size: 1.5rem;
+    }
+  
+    .profile-info p {
+      font-size: 1rem;
+    }
+  
+    .edit-button {
+      padding: 6px 12px;
+      font-size: 0.8rem;
+    }
+  
+    .btn-download {
+      padding: 6px 10px;
+    }
+
+    .resume-actions {
+      margin: 20px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .freelancer-profile-box {
+      padding: 10px;
+      width: 90%;
+    }
+  
+    .profile-title {
+      font-size: 1.3rem;
+    }
+  
+    .profile-info p {
+      font-size: 0.9rem;
+    }
+  
+    .edit-button {
+      padding: 5px 10px;
+      font-size: 0.7rem;
+    }
+  
+    .btn-download {
+      padding: 5px 8px;
+      font-size: 0.9rem;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .ant-modal {
+      top: 50% !important;
+      transform: translateY(-50%) !important;
+      max-width: 80% !important;
+      width: 90% !important;
+    }
+  } 

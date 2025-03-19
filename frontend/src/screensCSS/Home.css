@@ -1,0 +1,380 @@
+.home1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 60px 15px 60px;
+    background-color: #f8f9fa;
+    height: 80vh;
+}
+
+.home1text {
+    flex: 1;
+    padding-right: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.home1text h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    color: #1fa9a9;
+    margin-bottom: 20px;
+}
+
+.home1text p {
+    font-size: 1.2rem;
+    color: #000000;
+    margin-bottom: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.home1text button {
+    background-color: #80e80a;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.home1text button:hover {
+    background-color: #0056b3;
+}
+
+.home1img {
+    flex: 1;
+    text-align: right;
+}
+
+.home1img img {
+    max-width: 100%;
+    height: auto;
+}
+
+.platform-features {
+    padding: 1px 20px;
+    background-color: #f9f9f9;
+}
+
+.platform-features h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2rem;
+    color: #1fa9a9;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.feature {
+    display: flex;
+    flex-direction: column;
+    background-color: #e4e4e4;
+    padding: 25px;
+    border-radius: 20px; 
+    margin-bottom: 30px;
+}
+
+.feature h3 {
+    font-size: 1.8em; 
+    margin-bottom: 15px;
+    color: #0056b3;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.feature:hover h3 {
+    color: #1fa9a9;
+}
+
+.feature p {
+    font-size: 1.1em;
+    line-height: 1.8;
+    color: #000000;
+    margin-bottom: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.feature:hover p {
+    color: #666;
+}
+
+.how-to-use {
+    padding: 1px 20px;
+    background-color: #f9f9f9;
+}
+
+.how-to-use h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2.5rem;
+    color: #1fa9a9;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.steps {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.step {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    width: 80%;
+    max-width: 600px;
+    transition: box-shadow 0.3s ease;
+}
+
+.step:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.step-number {
+    background-color: #1fa9a9;
+    color: #ffffff;
+    font-size: 1.5rem;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+}
+
+.step-content {
+    flex: 1;
+}
+
+.step-button {
+    background-color: #80e80a;
+    color: #000000;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 10px;
+}
+
+.step  p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.step-button:hover {
+    background-color: #0056b3;
+}
+
+.contact-us {
+    padding: 1px 20px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+.contact-us h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2rem;
+    color: #1fa9a9;
+}
+
+.contact-form {
+    max-width: 40%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+}
+
+.contact-form label {
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.contact-form button {
+    width: 100%;
+    background-color: #1fa9a9;
+    color: #ffffff;
+    border: none;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #007a7a;
+}
+
+@media screen and (max-width: 768px) {
+    .home1 {
+        flex-direction: column;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .home1text {
+        padding-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .home1text h1 {
+        font-size: 2.5rem;
+    }
+
+    .home1text p {
+        font-size: 1rem;
+    }
+
+    .home1text button {
+        font-size: 1rem;
+        padding: 12px 25px;
+    }
+
+    .home1img {
+        text-align: center;
+    }
+
+    .home1img img {
+        max-width: 80%;
+    }
+
+    .feature {
+        margin-bottom: 20px;
+    }
+
+    .feature h3 {
+        font-size: 1.5em;
+    }
+
+    .feature p {
+        font-size: 1em;
+    }
+    .how-to-use h2 {
+        font-size: 2rem;
+    }
+
+    .step {
+        width: 90%;
+        margin-bottom: 15px;
+    }
+
+    .step-number {
+        font-size: 1.2rem;
+        width: 30px;
+        height: 30px;
+    }
+
+    .step-button {
+        font-size: 0.9rem;
+        padding: 8px 16px;
+    }
+
+    .contact-us h2 {
+        font-size: 1.8rem;
+    }
+
+    .contact-form {
+        padding: 0 20px;
+        max-width: 80%;
+    }
+
+}    
+
+@media screen and (max-width: 480px) {
+    .home1 {
+        flex-direction: column;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .home1text {
+        padding-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .home1text h1 {
+        font-size: 2.5rem;
+    }
+
+    .home1text p {
+        font-size: 1rem;
+    }
+
+    .home1text button {
+        font-size: 1rem;
+        padding: 12px 25px;
+    }
+
+    .home1img {
+        text-align: center;
+    }
+
+    .home1img img {
+        max-width: 80%;
+    }
+
+    .feature {
+        padding: 20px;
+    }
+
+    .feature h3 {
+        font-size: 1.3em;
+    }
+
+    .feature p {
+        font-size: 0.9em;
+    }
+
+    .how-to-use h2 {
+        font-size: 1.5rem;
+    }
+
+    .step {
+        width: 95%;
+        margin-bottom: 10px;
+    }
+
+    .step-number {
+        font-size: 1rem;
+        width: 25px;
+        height: 25px;
+    }
+
+    .step-button {
+        font-size: 0.8rem;
+        padding: 6px 12px;
+    }
+
+    .contact-us h2 {
+        font-size: 1.5rem;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+        font-size: 0.9rem;
+    }
+
+    .contact-form button {
+        font-size: 0.9rem;
+        padding: 8px;
+        max-width: 100%;
+    }
+}
